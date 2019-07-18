@@ -1,0 +1,214 @@
+﻿//ШРИФТЫ:
+@font-face {
+    font-family: OpenSans; //Гарнитура шрифта
+    src: url(../fonts/OpenSans-Regular.ttf); //Путь к файлу со шрифтом
+}
+@h1_h2_color: #666666;//Цвет h1, h2
+@p_color: #6F6F6F; //Цвет шрифта p
+
+@background_back_forward: #add1e5; //Цвет фона стрелок вперед, назад
+@color_back_forward: #808080; //Цвет шрифта стрелок вперед, назад
+@color_back_forward_hover: #eeeeee; //Цвет шрифта наведенной ссылки(стрелок вперед, назад)
+
+@font_size_content: 1.1em; //размер шрифта контента
+@font_size_h1: 1.5em; //размер шрифта h1
+@font_size_h2: 1.2em; //размер шрифта h2
+@font_size_brand: 27px; //размер шрифта брэнда
+@size_nav: 50px; //высота синей полосы
+@padding_brand: 6px; //padding брэнда сверху
+@radius: 6px;//Радиус скругления
+
+@size_content: 53%; //ширина блока с контентом
+@size_content_1560: 70%;
+
+//Начало Общие установки
+body {
+    margin: 0; //Убрать отступы в body
+    padding: 0; //Убрать отступы в body
+    background-color: #CCDAD5; //Цвет фона body
+    font-family: OpenSans, sans-serif; //Шрифт поключен
+}
+
+body a,
+body a:hover,
+body a:visited,
+body a:link,
+body a:active {
+    text-decoration: none; //Убрать подчеркивание у ссылок
+}
+//Конец Общие установки
+
+//Начало Синих полос Вверху и Внизу
+#nav, footer { //Это оболочки
+    width: 100%;//Ширина во весь экран
+    height: @size_nav;//Высота синей полосы
+    top: 0;//Смещение от верха
+    left: 0;//Смещение от низа
+    background-color: #428BCA;//Цвет полос
+}
+
+#navbar, #div_footer { //Это сами блоки
+    width: @size_content;//Ширина блока контента
+    height: @size_nav;//Высота блока контента
+    margin: 0 auto;//Выравнивание по центру
+    color: #fff;//Цвет шрифта в синей полосе
+}
+//Конец Синих полос Вверху и Внизу
+
+//Начало навигационной панели
+#nav {
+    position: fixed; //Фиксация верхней синей полосы
+}
+
+#brand {
+    color: #fff; //Цвет шрифта белый
+    text-align: center; //Выравнивание брэнда по горизотали, по центру
+    font-size: @font_size_brand; //Размер шрифта брэнда
+    padding-top: @padding_brand; //Выравнивание брэнда по вертикали, по центру
+}
+
+//Блок-обертка брэнда
+#brand_wrap {
+    width: @size_nav; //Высота блока-обертки брэнда
+    height: @size_nav; //Ширина блока-обертки брэнда
+    float: left; //Прижать к левому краю
+}
+//Конец навигационной панели
+
+//Блок с нулевой высотой
+#div_top {
+    margin-top: 66px; //Отступ от верхнего блока, у которого position: fixed;
+}
+
+//Начало Cкругления
+#loadcontent a.back.top_left {
+    border-radius: @radius 0 0 0; //Cтрелка НАЗАД Верхний радиус
+    -moz-border-radius: @radius 0 0 0;
+    -webkit-border-radius: @radius 0 0 0;
+    -khtml-border-radius: @radius 0 0 0;
+}
+
+#loadcontent a.back.bottom_left {
+    border-radius: 0 0 0 @radius; //Cтрелка НАЗАД Нижний радиус
+    -moz-border-radius: 0 0 0 @radius;
+    -webkit-border-radius: 0 0 0 @radius;
+    -khtml-border-radius: 0 0 0 @radius;
+}
+
+#loadcontent a.forward.top_right {
+    border-radius: 0 @radius 0 0; //Cтрелка ВПЕРЕД Верхний радиус
+    -moz-border-radius: 0 @radius 0 0;
+    -webkit-border-radius: 0 @radius 0 0;
+    -khtml-border-radius: 0 @radius 0 0;
+}
+
+#loadcontent a.forward.bottom_right {
+    border-radius: 0 0 @radius 0; //Cтрелка ВПЕРЕД Нижний радиус
+    -moz-border-radius: 0 0 @radius 0;
+    -webkit-border-radius: 0 0 @radius 0;
+    -khtml-border-radius: 0 0 @radius 0;
+}
+
+#content {
+    border-radius: @radius;//Скругление всех углов блока
+}
+//Конец Cкругления
+
+//Начало Основная колонка
+#wrap_content {
+    width: @size_content; //Ширина блока
+    margin: 0 auto; //выравнивание по центру
+}
+
+#content {
+    min-height: 670px; //Минимальная высота блока
+    background-color: #E7EAED; //Цвет фона блока
+}
+
+#content p {
+    color: @p_color; //Цвет шрифта
+    text-align: left; //Выравнивание по левому краю
+    line-height: 1.5; //Межстрочный интервал
+    text-indent: 34px; //Отступ первой строки в параграфе
+    font-size: @font_size_content; //Размер шрифта параграфа
+    margin: 0 20px 10px 20px;
+}
+
+#content h1 {
+    font-size: @font_size_h1; //Размер шрифта h1
+    margin: 24px 0 24px 44px;
+}
+
+#content h2 {
+    font-size: @font_size_h2; //Размер шрифта h2
+    margin: 23px 0 24px 38px;
+}
+
+#content h1, h2 {
+    color: @h1_h2_color; //Цвет шрифта h1, h2
+}
+
+.imgPhoto {
+    float: left; //Выравнивание фото Андрея по левому краю
+    width: 19%; //Ширина фото Андрея
+    margin: 0 20px 0 20px; //Отступ справа от фото Андрея
+}
+//Конец Основная колонка
+
+//Начало Стрелки Вперед Назад и ОГЛАВЛЕНИЕ
+#loadcontent {
+    overflow: hidden;
+}
+
+#loadcontent a.forward, #loadcontent a.back, #loadcontent a.chapter {
+    display: block;
+    height: 30px;
+    background-color: @background_back_forward;
+    color: @color_back_forward;
+    line-height: 30px;
+    font-weight: bold;
+    display: table-cell;
+    width: 1000px;
+}
+
+#arrows ul {
+    display: table-row;
+}
+
+#arrows ul li {
+    display: table-cell;
+    width: auto;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+#loadcontent a:hover {
+    color: @color_back_forward_hover;
+}
+//Конец Стрелки Вперед Назад
+
+//Начало footer
+footer {
+    margin-top: 16px;//Смещение вниз footer от блока content
+}
+
+#div_footer {
+    text-align: center;//
+    font-size: 19px;//
+    padding-top: 12px;//
+}
+
+#div_footer p {
+    margin: 0 auto;//
+}
+//Конец footer
+
+//Начало Медиазапросы
+@media (max-width:1260px) {
+    #wrap_content {
+        width: @size_content_1560; //Ширина блока
+    }
+}
+//Конец Медиазапросы
