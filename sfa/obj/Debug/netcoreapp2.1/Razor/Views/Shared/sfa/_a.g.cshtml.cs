@@ -66,7 +66,7 @@ using sfa.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             BeginContext(0, 293, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1afaa2a10a51472587bcccfab9e92b64", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "378ff9a2e2364dc9934201886cb37c7d", async() => {
                 BeginContext(284, 5, true);
                 WriteLiteral("НАЗАД");
                 EndContext();
@@ -99,7 +99,7 @@ using sfa.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(295, 328, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aafee144883640c5a366949ef3d10c2f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "06940b45f48f4ccebd1ee6beb791ed7d", async() => {
                 BeginContext(613, 6, true);
                 WriteLiteral("ВПЕРЕД");
                 EndContext();
@@ -132,7 +132,7 @@ using sfa.Models;
             WriteLiteral("\r\n\r\n\r\n");
             EndContext();
             BeginContext(629, 296, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3604cc9f011a4d4493231e64ba7f9a11", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71dc0464b95b4a76890948377630f98e", async() => {
                 BeginContext(916, 5, true);
                 WriteLiteral("НАЗАД");
                 EndContext();
@@ -165,7 +165,7 @@ using sfa.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(927, 331, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b075a89e302b489f8665d6de6c8d3b87", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6b06bf244cca4a37935033e854c6bf08", async() => {
                 BeginContext(1248, 6, true);
                 WriteLiteral("ВПЕРЕД");
                 EndContext();

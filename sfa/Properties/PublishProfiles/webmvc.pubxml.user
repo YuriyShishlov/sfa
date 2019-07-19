@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZkwjcGxrXEytG5BX2cMQzwAAAAACAAAAAAAQZgAAAAEAACAAAACcGRHbkHoavIyuxAYAdWTuDt1ZagC3DFxP4POeUa5HrAAAAAAOgAAAAAIAACAAAACaF01DqywcBQa79n+vER4dAiQ5/OlZ3BmGQVBUWHVj3CAAAADO2SjDKAt2W00qYgs4y5QB5/FZvMEXJZa4YbasCnCwZkAAAAC5duY8FYsYS0UsqIhw7yfMnwaToLVkKvslZXU4CxFLFk2DHUK0Q4cbvJlgVf8z1SGtizf4nV1xeQA3/QezwvvY</EncryptedPassword>
+    <_PublishTargetUrl>ftp://31.31.198.31/httpdocs/webmvc.ru/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>07/17/2019 19:32:41</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>07/17/2019 19:32:41</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>06/07/2018 00:27:02</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>01/03/2019 21:43:31</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>01/03/2019 21:43:32</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
+      <publishTime>06/07/2018 00:27:00</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>06/07/2018 00:26:58</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>06/07/2018 00:26:54</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>06/07/2018 00:26:56</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>06/07/2018 00:27:02</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>06/07/2018 00:27:02</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>06/07/2018 00:26:58</publishTime>
+    </File>
+    <File Include="NuGet.Frameworks.dll">
+      <publishTime>01/03/2019 21:43:38</publishTime>
+    </File>
+    <File Include="sfa.deps.json">
+      <publishTime>07/19/2019 13:02:03</publishTime>
+    </File>
+    <File Include="sfa.dll">
+      <publishTime>07/19/2019 13:01:55</publishTime>
+    </File>
+    <File Include="sfa.pdb">
+      <publishTime>07/19/2019 13:01:55</publishTime>
+    </File>
+    <File Include="sfa.runtimeconfig.json">
+      <publishTime>07/19/2019 13:02:03</publishTime>
+    </File>
+    <File Include="sfa.Views.dll">
+      <publishTime>07/19/2019 13:01:58</publishTime>
+    </File>
+    <File Include="sfa.Views.pdb">
+      <publishTime>07/19/2019 13:01:58</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>01/04/2019 09:29:22</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>01/04/2019 09:29:22</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>01/04/2019 09:29:22</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>01/04/2019 09:29:22</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>01/04/2019 09:29:24</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>07/19/2019 13:02:03</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>07/19/2019 12:57:06</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.less">
+      <publishTime>07/19/2019 12:57:05</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.min.css">
+      <publishTime>07/19/2019 12:57:06</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>06/07/2019 18:49:46</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/OpenSans-Regular.ttf">
+      <publishTime>06/04/2019 19:58:59</publishTime>
+    </File>
+    <File Include="wwwroot/images/andr.jpg">
+      <publishTime>06/04/2019 19:58:59</publishTime>
+    </File>
+    <File Include="wwwroot/js/history.js">
+      <publishTime>06/04/2019 19:58:59</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>07/19/2019 12:20:21</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.min.js">
+      <publishTime>07/17/2019 19:32:41</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>07/17/2019 19:32:41</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>07/17/2019 19:32:41</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>07/17/2019 19:32:41</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

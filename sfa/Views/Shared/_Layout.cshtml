@@ -14,8 +14,26 @@
         </div>
     </div>
     <div id="div_top"></div>
-    <div id="wrap_content"><div id="content"><div id="loadcontent">@RenderBody()</div></div></div>
+    <div id="wrap_content">
+        <div id="content">
+            <div id="loadcontent">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
     <footer><div id="div_footer"><p>&copy;2018 -  @DateTime.Now.Year</p></div></footer>
+    @*Всплывающее окно*@
+    <div class="fixed_overlay ">
+        <div class="fixed_overlay_modal">
+            <div class="modal">
+                <div class="modal_container">
+                    <a class="popup_close" href="#">Закрыть</a>
+                    @await Html.PartialAsync("_books")
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <script src="~/lib/jquery/dist/jquery.js"></script>
     <script src="~/js/site.js"></script>
 </body>

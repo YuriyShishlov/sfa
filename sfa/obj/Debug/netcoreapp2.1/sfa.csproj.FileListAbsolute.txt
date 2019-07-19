@@ -5,7 +5,6 @@ F:\Projects\SFA\NewSfa\sfa\sfa\bin\Debug\netcoreapp2.1\sfa.dll
 F:\Projects\SFA\NewSfa\sfa\sfa\bin\Debug\netcoreapp2.1\sfa.pdb
 F:\Projects\SFA\NewSfa\sfa\sfa\bin\Debug\netcoreapp2.1\sfa.Views.dll
 F:\Projects\SFA\NewSfa\sfa\sfa\bin\Debug\netcoreapp2.1\sfa.Views.pdb
-F:\Projects\SFA\NewSfa\sfa\sfa\obj\Debug\netcoreapp2.1\sfa.csprojAssemblyReference.cache
 F:\Projects\SFA\NewSfa\sfa\sfa\obj\Debug\netcoreapp2.1\sfa.csproj.CoreCompileInputs.cache
 F:\Projects\SFA\NewSfa\sfa\sfa\obj\Debug\netcoreapp2.1\sfa.RazorAssemblyInfo.cache
 F:\Projects\SFA\NewSfa\sfa\sfa\obj\Debug\netcoreapp2.1\sfa.RazorAssemblyInfo.cs
@@ -29,3 +28,5 @@ F:\Projects\SFA\NewSfa\sfa\sfa\obj\Debug\netcoreapp2.1\sfa.pdb
 F:\Projects\SFA\NewSfa\sfa\sfa\obj\Debug\netcoreapp2.1\sfa.csproj.CopyComplete
 F:\Projects\SFA\NewSfa\sfa\sfa\obj\Debug\netcoreapp2.1\Razor\Views\Shared\sfa\_main.g.cshtml.cs
 F:\Projects\SFA\NewSfa\sfa\sfa\obj\Debug\netcoreapp2.1\Razor\Views\Shared\sfa\_a.g.cshtml.cs
+F:\Projects\SFA\NewSfa\sfa\sfa\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_books.g.cshtml.cs
+F:\Projects\SFA\NewSfa\sfa\sfa\obj\Debug\netcoreapp2.1\sfa.csprojAssemblyReference.cache
